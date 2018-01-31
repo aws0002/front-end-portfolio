@@ -82,21 +82,16 @@ body {
     display: block;
     background-color: #c213b3;
     width: 5px;
-    top: 0;
+    top: 50%;
     left: 50%;
     z-index: 3;
     overflow: hidden;
-}
-
-
-.handle {
-    top: 50%;
     -webkit-transform: rotate(-25deg) translateY(-50%);
     transform: rotate(-25deg) translateY(-50%);
     height: 200%;
     -webkit-transform-origin: top;
     transform-origin: top;
-    overflow: hidden;
+    
 }
 
 .skewed .top {
